@@ -1,0 +1,83 @@
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.fs-3{
+  font-weight: 550;
+  margin-top: -6px;
+}
+.conoce {
+  font-size: 10px;
+  margin-bottom: -6px;
+  margin-top: -35px;
+}
+.d-flex {
+  margin-top: -6px;
+}
+.carousel-text-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+  color: #fff;
+}
+
+.carousel-text-container .row {
+  width: 100%;
+  margin-right: 0;
+}
+
+.carousel-text-container h3,
+.carousel-text-container p {
+  margin-bottom: 10px;
+}
+.btn-custom-green {
+  background-color: #188f18;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.btn-custom-transparent {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.btn-custom-transparent:hover {
+  background-color: #fff;
+  color: #000;
+}
+.btn-hover {
+  background-color: rgba(31, 238, 42, 1); /* Color de fondo del botón */
+}
+
+.btn-hover:hover {
+  background-color: rgb(224, 228, 16); /* Cambio de color en hover */
+  /* Otros estilos de hover si lo deseas */
+}
+.footer-content {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-gray:hover {
+  background-color: gray;
+}
