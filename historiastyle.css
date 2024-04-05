@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'HK Nova';
+    src: url(/HK/TTF/HKNova-ThinR.ttf);
+    font-weight: 200;
+    font-style: 200;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(/HK/TTF/HKNova-ExtraLightR.ttf);
+    font-weight: 250;
+    font-style: 250;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(/HK/TTF/HKNova-LightR.ttf);
+    font-weight: 300;
+    font-style: 300;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(/HK/TTF/HKNova-RegularR.ttf);
+    font-weight: 400;
+    font-style: 400;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(/HK/TTF/HKNova-MediumR.ttf);
+    font-weight: 500;
+    font-style: 500;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(/HK/TTF/HKNova-SemiBoldR.ttf);
+    font-weight: 600;
+    font-style: 600;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(/HK/TTF/HKNova-BoldR.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(/HK/TTF/HKNova-ExtraBoldR.ttf);
+    font-weight: 800;
+    font-style: 800;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(/HK/TTF/HKNova-HeavyR.ttf);
+    font-weight: 900;
+    font-style: 900;
+}
+
+
+*{
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+
+.container{
+    max-width: 1380px !important;
+    margin: auto !important;
+    background-color: rgb(202, 186, 186) ;
+    color: #030630; /* Texto blanco */
+    padding: 0 0 0 0 !important;
+}
+
+
+.box1 {
+    width: 98%;
+    max-width: 1380px; 
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .box3 {
+    width: 98%;
+    max-width: 1380px; 
+    margin-right: 1%; 
+    margin-left: 1%;
+    text-align: center;
+    display: flex;
+    border-radius: 0px 0px 20px 20px;
+   
+  }
+  
+  .textrigth {
+    text-align:start;
+    color: #030630;
+    font-family: 'HK Nova';
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btns1 {
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente en el centro */
+    align-items: center; /* Alinea verticalmente en el centro */
+    height: 80px;
+    width: fit-content; /* Permite que el ancho se ajuste dinámicamente al contenido */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+
+
+
+.social-icon1 {
+    display: inline-block;
+    transition: transform 0.3s; /* Agrega una transición suave */
+    margin-top: 10px;
+    color: white; /* Iconos blancos por defecto */
+}
+
+
+.social-icon1:hover {
+    transform: scale(1.2);
+    color: #E30231; /* Agranda el icono al 120% de su tamaño original */
+}
+
+
+
+.btns1:hover {
+    padding: 10px; /* Ajusta el espacio alrededor de los iconos al pasar el cursor sobre el contenedor */
+}
+
+
+img{
+    max-width: 100% !important;
+}
+
+
+
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+ @media (min-width: 0px) and (max-width: 179px) {
+    
+     
+     .col-md-6{
+background-color: white;
+
+     }
+    
+     
+     
+     
+
+ 
+     
+     
+     
+  }
+ 
+ 
+
+
+
+
+
+/* Para dispositivos responsivos */
+@media (max-width: 767px) {
+    .right-div {
+        padding-top: 0 !important; /* Ajustado a 0 para eliminar el espacio */
+    }
+}
+
+

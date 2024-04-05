@@ -1,0 +1,1032 @@
+
+
+.carousel-caption h5 {
+  font-family: 'HK Nova';
+  font-weight: 600 ;
+}
+
+.carousel-caption p {
+  font-family: 'HK Nova';
+  font-weight: 300 ;
+}
+
+
+
+
+@media (min-width:200px) and (max-width:210px){
+    .carousel-caption h5 {
+        font-size: 7px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 6px !important;
+        margin-bottom: -7px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:211px) and (max-width:220px){
+    .carousel-caption h5 {
+        font-size: 8px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 7px !important;
+        margin-bottom: -6px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:221px) and (max-width:230px){
+    .carousel-caption h5 {
+        font-size: 8px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 7px !important;
+        margin-bottom: -5px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:231px) and (max-width:240px){
+    .carousel-caption h5 {
+        font-size: 8px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 7px !important;
+        margin-bottom: -4px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:241px) and (max-width:250px){
+    .carousel-caption h5 {
+        font-size: 9px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 8px !important;
+        margin-bottom: -3px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:251px) and (max-width:260px){
+    .carousel-caption h5 {
+        font-size: 9px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 8px !important;
+        margin-bottom: -2px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:261px) and (max-width:270px){
+    .carousel-caption h5 {
+        font-size: 9px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 8px !important;
+        margin-bottom: -1px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:271px) and (max-width:280px){ 
+    .carousel-caption h5 {
+        font-size: 9px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 8px !important;
+        margin-bottom: 0px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:281px) and (max-width:290px){
+    .carousel-caption h5 {
+        font-size: 10px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 9px !important;
+        margin-bottom: 1px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:291px) and (max-width:300px){
+    .carousel-caption h5 {
+        font-size: 11px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 10px !important;
+        margin-bottom: 2px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:301px) and (max-width:310px){
+    .carousel-caption h5 {
+        font-size: 12px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 10px !important;
+        margin-bottom: 3px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:311px) and (max-width:320px){ 
+    .carousel-caption h5 {
+        font-size: 12px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 11px !important;
+        margin-bottom: 4px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    @media (min-width:321px) and (max-width:330px){
+    .carousel-caption h5 {
+        font-size: 12px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 11px !important;
+        margin-bottom: 5px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    @media (min-width:331px) and (max-width:340px){
+    .carousel-caption h5 {
+        font-size: 12px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 11px !important;
+        margin-bottom: 6px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    
+    
+    @media (min-width:341px) and (max-width:350px){
+    .carousel-caption h5 {
+        font-size: 12px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 11px !important;
+        margin-bottom: 6px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    
+    
+    @media (min-width:351px) and (max-width:360px){
+    .carousel-caption h5 {
+        font-size: 13px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 12px !important;
+        margin-bottom: 7px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    
+    @media (min-width:361px) and (max-width:370px){
+    .carousel-caption h5 {
+        font-size:  13px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 12px !important;
+        margin-bottom: 14px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    @media (min-width:371px) and (max-width:380px){
+    .carousel-caption h5 {
+        font-size: 13px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 13px !important;
+        margin-bottom: 15px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    @media (min-width:381px) and (max-width:390px){
+    .carousel-caption h5 {
+        font-size: 13px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 13px !important;
+        margin-bottom: 15px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    @media (min-width:391px) and (max-width:400px){
+    .carousel-caption h5 {
+        font-size: 14px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 13px !important;
+        margin-bottom: 16px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    @media (min-width:401px) and (max-width:410px){
+    .carousel-caption h5 {
+        font-size: 14px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 13px !important;
+        margin-bottom: 17px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    
+    @media (min-width:411px) and (max-width:420px){
+    .carousel-caption h5 {
+        font-size: 14px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 14px !important;
+        margin-bottom: 18px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    
+    
+    @media (min-width:421px) and (max-width:430px){
+    .carousel-caption h5 {
+        font-size: 14px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 14px !important;
+        margin-bottom: 19px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    @media (min-width:431px) and (max-width:440px){
+    .carousel-caption h5 {
+        font-size: 15px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 14px !important;
+        margin-bottom: 20px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    
+    @media (min-width:441px) and (max-width:450px){
+    .carousel-caption h5 {
+        font-size: 15px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 15px !important;
+        margin-bottom: 23px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    @media (min-width:451px) and (max-width:460px){
+    .carousel-caption h5 {
+        font-size: 15px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 15px !important;
+        margin-bottom: 24px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    
+    @media (min-width:461px) and (max-width:470px){
+    .carousel-caption h5 {
+        font-size: 15px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 15px !important;
+        margin-bottom: 28px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:471px) and (max-width:480px){
+    .carousel-caption h5 {
+        font-size: 16px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 15px !important;
+        margin-bottom: 32px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    @media (min-width:481px) and (max-width:490px){
+    .carousel-caption h5 {
+        font-size: 16px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 15px !important;
+        margin-bottom: 36px;
+        line-height: 1.2;
+      }
+    }
+    
+    
+    
+    @media (min-width:491px) and (max-width:500px){
+    .carousel-caption h5 {
+        font-size: 16px !important;
+        margin-bottom: -1px;
+      }
+      
+      
+      .carousel-caption p {
+        font-size: 15px !important;
+        margin-bottom: 40px;
+        line-height: 1.2;
+      }
+    }
+    
+
+    
+    @media (min-width:501px) and (max-width:510px){
+        .carousel-caption h5 {
+            font-size: 16px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 15px !important;
+            margin-bottom: 40px;
+            line-height: 1.2;
+          }
+        }
+        
+
+
+        
+    @media (min-width:511px) and (max-width:520px){
+        .carousel-caption h5 {
+            font-size: 16px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 15px !important;
+            margin-bottom: 40px;
+            line-height: 1.2;
+          }
+        }
+    
+        
+
+
+        
+    @media (min-width:521px) and (max-width:530px){
+        .carousel-caption h5 {
+            font-size: 16px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 40px;
+            line-height: 1.2;
+          }
+        }
+    
+        
+
+
+        
+    @media (min-width:531px) and (max-width:540px){
+        .carousel-caption h5 {
+            font-size: 16px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 40px;
+            line-height: 1.2;
+          }
+        }
+    
+        
+
+
+
+        
+    @media (min-width:541px) and (max-width:550px){
+        .carousel-caption h5 {
+            font-size: 16px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 44px;
+            line-height: 1.2;
+          }
+        }
+    
+        
+
+
+        
+    @media (min-width:551px) and (max-width:560px){
+        .carousel-caption h5 {
+            font-size: 16px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 44px;
+            line-height: 1.2;
+          }
+        }
+    
+        
+
+
+        
+    @media (min-width:561px) and (max-width:570px){
+        .carousel-caption h5 {
+            font-size: 16px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 46px;
+            line-height: 1.2;
+          }
+        }
+    
+        
+
+        
+    @media (min-width:571px) and (max-width:580px){
+        .carousel-caption h5 {
+            font-size: 16px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 46px;
+            line-height: 1.2;
+          }
+        }
+        
+
+        
+        
+    @media (min-width:581px) and (max-width:590px){
+        .carousel-caption h5 {
+            font-size: 16px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 48px;
+            line-height: 1.2;
+          }
+        }
+
+
+          
+        
+    @media (min-width:591px) and (max-width:600px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+           
+
+
+
+
+
+
+
+
+    @media (min-width:601px) and (max-width:610px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+           
+    @media (min-width:611px) and (max-width:620px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 52px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+           
+    @media (min-width:621px) and (max-width:630px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 54px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+
+           
+    @media (min-width:631px) and (max-width:640px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 56px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+
+           
+    @media (min-width:641px) and (max-width:650px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 60px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+           
+    @media (min-width:651px) and (max-width:660px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 62px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+           
+    @media (min-width:661px) and (max-width:670px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 64px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+           
+    @media (min-width:671px) and (max-width:680px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 17px !important;
+            margin-bottom: 66px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+
+
+           
+    @media (min-width:681px) and (max-width:690px){
+        .carousel-caption h5 {
+            font-size: 18px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 17px !important;
+            margin-bottom: 68px;
+            line-height: 1.2;
+          }
+        }
+
+
+        
+           
+    @media (min-width:691px) and (max-width:700px){
+        .carousel-caption h5 {
+            font-size: 18px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 17px !important;
+            margin-bottom: 70px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+
+
+        
+    @media (min-width:701px) and (max-width:710px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+           
+    @media (min-width:711px) and (max-width:720px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+           
+    @media (min-width:721px) and (max-width:730px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+
+           
+    @media (min-width:731px) and (max-width:740px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+
+           
+    @media (min-width:741px) and (max-width:750px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+           
+    @media (min-width:751px) and (max-width:760px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+           
+    @media (min-width:761px) and (max-width:770px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+           
+    @media (min-width:771px) and (max-width:780px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+
+
+
+
+           
+    @media (min-width:781px) and (max-width:790px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }
+
+
+        
+           
+    @media (min-width:791px) and (max-width:800px){
+        .carousel-caption h5 {
+            font-size: 17px !important;
+            margin-bottom: -1px;
+          }
+          
+          
+          .carousel-caption p {
+            font-size: 16px !important;
+            margin-bottom: 50px;
+            line-height: 1.2;
+          }
+        }

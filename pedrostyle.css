@@ -1,0 +1,1028 @@
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-ThinR.ttf);
+    font-weight: 200;
+    font-style: 200;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-ExtraLightR.ttf);
+    font-weight: 250;
+    font-style: 250;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-LightR.ttf);
+    font-weight: 300;
+    font-style: 300;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-RegularR.ttf);
+    font-weight: 400;
+    font-style: 400;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-MediumR.ttf);
+    font-weight: 500;
+    font-style: 500;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-SemiBoldR.ttf);
+    font-weight: 600;
+    font-style: 600;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-BoldR.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-ExtraBoldR.ttf);
+    font-weight: 800;
+    font-style: 800;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-HeavyR.ttf);
+    font-weight: 900;
+    font-style: 900;
+}
+
+
+*{
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+
+.container{
+    max-width: 1380px !important;
+    margin: auto !important;
+    background-color: white;
+    color: #030630; /* Texto blanco */
+    padding: 0 0 0 0 !important;
+}
+
+
+
+.slider__track {
+    display: flex;
+    overflow-x: auto;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    padding-inline: var(--slider-padding);
+    scroll-behavior: smooth;
+    list-style-type: none;
+    padding: 0;
+    margin-right: calc(--var(slider-column-gap) * -1);
+    scrollbar-width: none;
+    margin-top: -35px;
+}
+
+
+.slider__track > * {
+    flex: 0 0 var(--slide-width);
+    min-width: var(--slide-min-width);
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    padding-right: var(--slider-column-gap);
+}
+
+
+.slider__track::-webkit-scrollbar {
+    display: none;
+}
+
+
+button.slider__button,
+button.slider__button1 {  
+    border: 2px solid #E30231;
+    width: 100px;
+    height: 55px;
+    font-size: 15px;
+    cursor: pointer;
+    background-image: url('botonblanco.png'); /* Establecer imagen de fondo al pasar el cursor */
+    background-size: cover; 
+    filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+    border-radius: 10px;
+    }
+    
+    
+button.slider__button:hover {
+    border: 2px solid #1E14D2;
+    width: 100px;
+    height: 55px;
+    font-size: 15px;
+    cursor: pointer;
+    background-image: url('rojo.png'); /* Establecer imagen de fondo al pasar el cursor */
+    background-size: cover; 
+    filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+    border-radius: 10px;
+    }
+    
+    
+button.slider__button1:hover {
+    border: 2px solid #1E14D2;
+    width: 100px;
+    height: 55px;
+    font-size: 15px;
+    cursor: pointer;
+    background-image: url('rojo.png'); /* Establecer imagen de fondo al pasar el cursor */
+    background-size: cover; 
+    filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+    border-radius: 10px;
+    }
+
+
+.col-md-6{
+    background-color: white ; 
+    border-radius: 25px;
+     height: auto;
+}
+
+
+
+
+.algosobremi {
+    margin-top: 20px ;
+    font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+    font-weight: bold;
+    font-size: 30px;
+    color: #030630;
+    
+}
+
+
+.textrigth {
+    font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+    font-weight: 400;
+    font-size: 13px;
+    color: #030630;
+}
+
+
+.gruesorigth {
+
+    font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+    font-weight: bold;
+    font-size: 13px;
+    color: #030630;
+
+}
+
+
+.spanrigth {
+
+    font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+    font-weight: bold;
+    font-size: 13px;
+    color: #030630;
+
+}
+
+
+.btn-custom {
+    background-color: white;
+    border: 1px solid #E30231 ;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: #030630;
+}
+
+  
+.namedepartament {
+   font-family: 'HK Nova';
+   font-weight: 600;
+   font-size: 22px;
+}
+
+
+a.namedepartament {
+    color: white;
+}
+
+
+.nav1-img {
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 40px;  
+}
+
+
+
+.card {
+    border: none;
+}
+
+
+.card-header {
+    border-bottom: none;
+}
+
+
+.card-body {
+    border: none;
+}
+
+
+.card-footer {
+    border-top: none;
+}
+
+
+.btns1 {
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente en el centro */
+    align-items: center; /* Alinea verticalmente en el centro */
+    height: 80px;
+    width: fit-content; /* Permite que el ancho se ajuste dinámicamente al contenido */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+
+
+.social-icon1 {
+    display: inline-block;
+    transition: transform 0.3s; /* Agrega una transición suave */
+    margin-top: 10px;
+    color: #030630; /* Iconos blancos por defecto */
+}
+
+
+.social-icon1:hover {
+    transform: scale(1.2);
+    color: #E30231; /* Agranda el icono al 120% de su tamaño original */
+}
+
+
+
+.btns1:hover {
+    padding: 10px; /* Ajusta el espacio alrededor de los iconos al pasar el cursor sobre el contenedor */
+}
+
+
+img{
+    max-width: 100% !important;
+}
+
+/*menu hamburguesa*/
+.white-box {
+    background-color: #030630; /* Fondo azul oscuro */
+    width: 100%; /* Tamaño completo */
+    height: 55px; /* Altura deseada */
+}
+
+
+.button.btn.btn-sm.btn-outline-light.mb-4.w-15 {
+    padding: 5px 10px;
+    font-family: 'HK Nova';
+    font-weight: bold;
+    font-size: 13px;
+    /* Cambia el color del texto al pasar el cursor sobre el botón */
+    border-radius: 10px;
+    font-size: 12px;
+    background-image: url('rojo.png'); /* Establecer imagen de fondo al pasar el cursor */
+    background-size: cover; 
+    border-color: #1E14D2;
+    filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+}
+
+
+.button.btn.btn-sm.btn-outline-light.mb-4.w-15:hover {
+    color: white;
+    padding: 5px 10px; /* Ajusta el relleno interno del botón */
+    margin: 0; /* Elimina cualquier margen adicional */
+    font-size: 12px;
+    border-radius: 3px;
+    background-image: url('botonmisiones.png'); /* Establecer imagen de fondo al pasar el cursor */
+    background-size: cover; 
+    border-color: #1E14D2;
+    filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+}
+
+
+
+
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+
+/* Para otros tamaños de pantalla */
+.center {
+    width: 50%;
+	height: 50%;
+}
+
+
+.title {
+	color: #E30231;
+	font-size: 70px;
+}
+
+
+section.slider {
+    padding: 10px 0;
+    background: #030630;
+    height: 88vh;
+    margin-bottom: 2px;
+}
+
+
+section.slider .title {
+    font-size: 42px;
+    position: relative;
+    top: 24px;
+}
+
+
+.slider-title {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+	margin-bottom: 35px;
+}
+
+
+.slide_content {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.slide_content p {
+    color: white;
+    font-size: 22px;
+	letter-spacing: 1px;
+}
+
+
+.slide:hover {
+    border: 3px solid #E30231;
+}
+
+
+.slider {
+    --slider-padding: 1rem;
+    --slider-column-gap: 1rem;
+    --slide-width: 20%;
+    --slide-min-width: 15rem;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    border: 3px solid #1e27a5;
+    border-radius: 20px;
+    padding: 7px;
+    height: 400px; /* Cambiado a max-height en lugar de height */
+}
+
+
+.linkimg{
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: 380px; /* Permite mantener las proporciones originales de la imagen */
+    display: block; 
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+
+.slideimg {
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: 380px; /* Permite mantener las proporciones originales de la imagen */
+    display: block; 
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor sin distorsionar las proporciones ni mostrar partes sobrantes */
+}
+
+
+/* Responsive Media Query */
+
+@media (min-width: 1200px){
+	.menu ul {
+		display: flex;
+		justify-content: center;
+	}
+	.mob-icons {
+		display: none;
+	}
+}
+
+
+@media (max-width: 769px) {
+	
+    
+    .main_title {
+		font-size: 60px;
+		line-height: 60px;
+	}
+
+
+	.title {
+		font-size: 60px;
+	}
+}
+
+
+@media (max-width: 600px) {
+	.title {
+		font-size: 40px;
+	}
+
+
+	.main_title {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+
+	section.slider .title {
+		font-size: 40px;
+	}
+
+
+
+
+    .slider .btns button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 426px) {
+	
+    
+    .main_title {
+		font-size: 35px;
+		line-height: 35px;
+	}
+
+
+	section.slider .title {
+		font-size: 30px;
+		top: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+    
+
+    .slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        aspect-ratio: 1/1;
+        position: relative;
+        border: 3px solid #1e27a5;
+        border-radius: 20px;
+        padding: 7px;
+        height: 360px; /* Cambiado a max-height en lugar de height */
+    }
+    
+    
+    .linkimg{
+        max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+        height: 340px; /* Permite mantener las proporciones originales de la imagen */
+        display: block; 
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+    
+    
+    .slideimg {
+        max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+        height: 340px; /* Permite mantener las proporciones originales de la imagen */
+        display: block; 
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover; /* Ajusta la imagen al tamaño del contenedor sin distorsionar las proporciones ni mostrar partes sobrantes */
+    }
+}
+
+
+@media (min-width: 768px) {
+    .row {
+        margin-top: -10px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .right-div {
+         padding-top: 35px !important;
+        }
+}
+    
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 179px) {
+    .algosobremi {
+         display: none;
+        }
+    
+        .textrigth {
+            display: none;
+        }
+        
+        
+        .gruesorigth {
+        
+            display: none;
+        
+        }
+        
+        
+        .spanrigth {
+        
+         display: none;
+        
+        }
+
+    button.slider__button {
+      display: none;
+        }
+    
+    
+    button.slider__button1 {
+      display: none;
+        }
+    
+    
+   
+    
+    .slide {
+        display: none;
+   
+        }
+        
+    
+    .linkimg{
+        display: none;
+        }
+        
+    
+    .slideimg {
+     display: none;
+        }
+    
+    
+    .slider-title{
+       display: none;
+        }
+ }
+
+
+
+ @media (min-width: 180px) and (max-width: 239px) {
+
+  
+    
+    
+    .algosobremi {
+         width: 100%; 
+         margin-top: 14px; 
+         box-sizing: border-box; 
+         font-size: 14px !important; 
+         margin-bottom: 4px;
+        }
+    
+        .textrigth {
+            font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+            font-weight: 400;
+            font-size: 10px;
+        }
+        
+        
+        .gruesorigth {
+        
+            font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+            font-weight: 600;
+            font-size: 10px;
+        
+        }
+        
+        
+        .spanrigth {
+        
+            font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+            font-weight: 600;
+            font-size: 10px;
+        
+        }
+
+    button.slider__button {
+        width: 60px;
+        height: 40px;
+        margin-top: -15px;
+        margin-bottom: 5px;
+        }
+    
+    
+    button.slider__button1 {
+        width: 60px;
+        height: 40px;
+        margin-top: -15px;
+        margin-bottom: 5px
+        }
+    
+    
+    button.slider__button:hover {
+        border: 2px solid #1E14D2;
+        width: 60px;
+        height: 40px;
+        font-size: 15px;
+        cursor: pointer;
+        background-image: url('rojo.png'); /* Establecer imagen de fondo al pasar el cursor */
+        background-size: cover; 
+        filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+        border-radius: 10px;
+        }
+        
+        
+    button.slider__button1:hover {
+        border: 2px solid #1E14D2;
+        width: 60px;
+        height: 40px;
+        font-size: 15px;
+        cursor: pointer;
+        background-image: url('rojo.png'); /* Establecer imagen de fondo al pasar el cursor */
+        background-size: cover; 
+        filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+        border-radius: 10px;
+        }
+    
+    .slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        aspect-ratio: 1/1;
+        position: relative;
+        border: 3px solid #1e27a5;
+        border-radius: 20px;
+        padding: 7px;
+        height: 440px; 
+        }
+        
+    
+    .linkimg{
+        max-width: 100%; 
+        height: 420px; 
+        display: block; 
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover;
+        }
+        
+    
+    .slideimg {
+        max-width: 100%;  
+        height: 420px; 
+        display: block; 
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover; 
+        }
+    
+    
+    .slider-title{
+        margin-top: 30px;
+        }
+ }
+
+
+
+
+
+
+   
+ @media (min-width: 240px) and (max-width: 299px) {
+
+  
+    
+    
+    .algosobremi {
+         width: 100%; 
+         margin-top: 14px; 
+         box-sizing: border-box; 
+         font-size: 14px !important; 
+         margin-bottom: 4px;
+        }
+    
+        .textrigth {
+            font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+            font-weight: 400;
+            font-size: 10px;
+        }
+        
+        
+        .gruesorigth {
+        
+            font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+            font-weight: 600;
+            font-size: 10px;
+        
+        }
+        
+        
+        .spanrigth {
+        
+            font-family: 'HK Nova'; /* Aplica la fuente HK Nova a la clase .navbar-brand.text-info */
+            font-weight: 600;
+            font-size: 10px;
+        
+        }
+
+    button.slider__button {
+        width: 60px;
+        height: 40px;
+        margin-top: -15px;
+        margin-bottom: 5px;
+        }
+    
+    
+    button.slider__button1 {
+        width: 60px;
+        height: 40px;
+        margin-top: -15px;
+        margin-bottom: 5px
+        }
+    
+    
+    button.slider__button:hover {
+        border: 2px solid #1E14D2;
+        width: 60px;
+        height: 40px;
+        font-size: 15px;
+        cursor: pointer;
+        background-image: url('rojo.png'); /* Establecer imagen de fondo al pasar el cursor */
+        background-size: cover; 
+        filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+        border-radius: 10px;
+        }
+        
+        
+    button.slider__button1:hover {
+        border: 2px solid #1E14D2;
+        width: 60px;
+        height: 40px;
+        font-size: 15px;
+        cursor: pointer;
+        background-image: url('rojo.png'); /* Establecer imagen de fondo al pasar el cursor */
+        background-size: cover; 
+        filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+        border-radius: 10px;
+        }
+    
+    .slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        aspect-ratio: 1/1;
+        position: relative;
+        border: 3px solid #1e27a5;
+        border-radius: 20px;
+        padding: 7px;
+        height: 440px; 
+        }
+        
+    
+    .linkimg{
+        max-width: 100%; 
+        height: 420px; 
+        display: block; 
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover;
+        }
+        
+    
+    .slideimg {
+        max-width: 100%;  
+        height: 420px; 
+        display: block; 
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover; 
+        }
+    
+    
+    .slider-title{
+        margin-top: 30px;
+        }
+ }
+
+
+    
+@media (min-width: 300px) and (max-width: 400px) {
+    .algosobremi {
+         width: 100%; 
+         margin-top: 20px; 
+         box-sizing: border-box; 
+         font-size: 16px !important; 
+         margin-bottom: 4px;
+        }
+    
+    
+    button.slider__button {
+        width: 70px;
+        height: 45px;
+        margin-top: -15px;
+        margin-bottom: 5px;
+        }
+    
+    
+    button.slider__button1 {
+        width: 70px;
+        height: 45px;
+        margin-top: -15px;
+        margin-bottom: 5px
+        }
+    
+    
+    button.slider__button:hover {
+        border: 2px solid #1E14D2;
+        width: 70px;
+        height: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        background-image: url('rojo.png'); /* Establecer imagen de fondo al pasar el cursor */
+        background-size: cover; 
+        filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+        border-radius: 10px;
+        }
+        
+        
+    button.slider__button1:hover {
+        border: 2px solid #1E14D2;
+        width: 70px;
+        height: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        background-image: url('rojo.png'); /* Establecer imagen de fondo al pasar el cursor */
+        background-size: cover; 
+        filter: brightness(100%); /* Mantener el brillo al 100% para evitar cambios en el color en modo oscuro */
+        border-radius: 10px;
+        }
+    
+    .slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        aspect-ratio: 1/1;
+        position: relative;
+        border: 3px solid #1e27a5;
+        border-radius: 20px;
+        padding: 7px;
+        height: 440px; 
+        }
+        
+    
+    .linkimg{
+        max-width: 100%; 
+        height: 420px; 
+        display: block; 
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover;
+        }
+        
+    
+    .slideimg {
+        max-width: 100%;  
+        height: 420px; 
+        display: block; 
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover; 
+        }
+    
+    
+    .slider-title{
+        margin-top: 30px;
+        }
+ }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 991px) {
+    .navbar-nav > li {
+        transition: all 0.3s; /* Agrega una transición suave al hacer hover */
+    }
+
+    .navbar-nav > li:hover {
+        background-color:  #E30231 !important; /* Fondo blanco al hacer hover */
+        border-radius: 25px;
+        color: #E30231 !important; /* Texto azul oscuro al hacer hover */
+        width: 95%;
+        margin-right: 2.5%; /* Margen a la derecha del 2.5% */
+        margin-left: 2.5%; /* Margen a la izquierda del 2.5% */
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .navbar-nav > li {
+        transition: all 0.3s; /* Agrega una transición suave al hacer hover */
+        text-align: center; /* Centra el texto dentro del elemento */
+        align-items: center; /* Centra verticalmente el contenido */
+        width: 12%; /* Ancho fijo para evitar que el texto se mueva */
+        display: flex; /* Utiliza flexbox para centrar verticalmente */
+        justify-content: center; /* Centra horizontalmente el contenido */
+    }
+
+    .navbar-nav > li:hover {
+        background-color: #009EE2 !important; /* Fondo blanco al hacer hover */
+        border-radius: 20px;
+        color: #009EE2 !important; /* Texto azul oscuro al hacer hover */
+    }
+}
+
+
+/* Para dispositivos responsivos */
+@media (max-width: 767px) {
+    .right-div {
+        padding-top: 0 !important; /* Ajustado a 0 para eliminar el espacio */
+    }
+}
+
+

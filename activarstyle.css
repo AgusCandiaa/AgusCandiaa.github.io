@@ -1,0 +1,2196 @@
+*{
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+.container{
+  max-width: 1380px !important;
+  margin: auto!important;
+  background-color: white;
+  color: white; /* Texto blanco */
+  padding: 0 0 0 0 !important;
+}
+
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-ThinR.ttf);
+    font-weight: 200;
+    font-style: 200;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-ExtraLightR.ttf);
+    font-weight: 250;
+    font-style: 250;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-LightR.ttf);
+    font-weight: 300;
+    font-style: 300;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-RegularR.ttf);
+    font-weight: 400;
+    font-style: 400;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-MediumR.ttf);
+    font-weight: 500;
+    font-style: 500;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-SemiBoldR.ttf);
+    font-weight: 600;
+    font-style: 600;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-BoldR.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-ExtraBoldR.ttf);
+    font-weight: 800;
+    font-style: 800;
+}
+
+
+@font-face {
+    font-family: 'HK Nova';
+    src: url(HKNova-HeavyR.ttf);
+    font-weight: 900;
+    font-style: 900;
+}
+
+
+@media (max-width: 991px) {
+  .navbar-nav > li {
+      transition: all 0.3s; /* Agrega una transición suave al hacer hover */
+  }
+
+  .navbar-nav > li:hover {
+      background-color: #009EE2  !important; /* Fondo blanco al hacer hover */
+      border-radius: 25px;
+      width: 95%;
+      margin-right: 2.5%; /* Margen a la derecha del 2.5% */
+      margin-left: 2.5%; /* Margen a la izquierda del 2.5% */
+      color: white;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    .navbar-nav > li {
+        transition: all 0.3s; 
+        
+    }
+
+    .navbar-nav > li:hover {
+        background-color: #009EE2 !important; /* Fondo blanco al hacer hover */
+        border-radius: 20px;
+        color: white;
+    }
+}
+
+
+
+@media (max-width: 1380px) {
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 20px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+}
+
+
+
+
+@media (max-width: 1280px) {
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 18px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+}
+
+
+
+
+@media (max-width: 1220px) {
+  .activarfoto {
+    height: 3.8rem !important;
+    width: auto;
+    padding: 3px;
+    transition: padding  0.5s;
+    margin-left: 15px;
+  }
+
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 17px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+}
+
+
+
+@media (max-width: 1180px) {
+  .activarfoto {
+    height: 3.7rem !important;
+    width: auto;
+    padding: 3px;
+    transition: padding  0.5s;
+    margin-left: 15px;
+  }
+
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+}
+
+@media (max-width: 1150px) {
+  .activarfoto {
+    height: 3.5rem !important;
+    width: auto;
+    padding: 3px;
+    transition: padding  0.5s;
+    margin-left: 15px;
+  }
+
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .activarfoto {
+    height: 3.3rem !important;
+    width: auto;
+    padding: 3px;
+    transition: padding  0.5s;
+    margin-left: 15px;
+  }
+
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 15px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+
+}
+
+
+@media (min-width: 1059px) and (max-width: 1079px) {
+  .activarfoto {
+    height: 3.2rem !important;
+    width: auto;
+    padding: 3px;
+    transition: padding  0.5s;
+    margin-left: 15px;
+  }
+
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 15px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+
+}
+
+@media (min-width: 1041px) and (max-width: 1058px) {
+  .activarfoto {
+    height: 3.1rem !important;
+    width: auto;
+    padding: 3px;
+    transition: padding  0.5s;
+    margin-left: 15px;
+  }
+
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 1011px) and (max-width: 1040px) {
+  .activarfoto {
+    height: 3rem !important;
+    width: auto;
+    padding: 3px;
+    transition: padding  0.5s;
+    margin-left: 15px;
+  }
+  
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1010px) {
+  .activarfoto {
+    height: 2.8rem !important;
+    width: auto;
+    padding: 3px;
+    transition: padding  0.5s;
+    margin-left: 15px;
+  }
+  .nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 14px !important;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+  
+}
+
+
+
+
+/*ESTILOS NAVBAR*/
+.navbar{
+  background-image: linear-gradient(to right ,#E30231 , #1E14D2); 
+}
+
+.nav1-text {
+  color: white; 
+  font-family: 'HK Nova'; 
+  font-weight: 800; 
+  font-size: 20px !important;
+}
+
+.nav1-text:hover {
+  color: #009EE2; 
+}
+
+.nav2-img {
+  width: 2.5rem;
+  height: auto;
+  margin-top: -15px;
+}
+
+.offcanvas {
+ background-color: #1d14d2a1;
+}
+
+.offcanvas-header{
+  background-image: linear-gradient(to right ,#E30231  , #1E14D2); 
+}
+
+.btn-close {
+  font-size: 1.2rem; 
+  margin-top: -32px !important; 
+}
+
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.activarfoto {
+  height: 4rem;
+  width: auto;
+  padding: 3px;
+  transition: padding  0.5s;
+  margin-left: 15px;
+}
+
+.activarfoto:hover {
+ transition: padding 0.5s; 
+ border-radius: 10px;
+ padding: 0;
+}
+
+.navbar-toggler {
+  padding: 2px;
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+  margin-right: 10px;
+  background-image: url('misiones.png'); 
+  background-size: cover; 
+  border-color: rgb(17, 0, 63);
+  filter: brightness(100%); 
+}
+
+.navbar-toggler:hover {
+  padding: 2px;
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+  margin-right: 10px;
+  background-image: url('argentina.png'); 
+  background-size: cover; 
+  border-color: rgb(17, 0, 63);
+  filter: brightness(100%); 
+}
+
+.nav-link {
+    color: white;
+    font-family: 'HK Nova';
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+  
+  .social-icon1 {
+    display: inline-block;
+    transition: transform 0.3s; 
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .social-icon1:hover {
+    transform: scale(1.5); 
+    color: #009EE2; 
+  }
+
+/*ESTILOS NAVBAR*/
+
+
+/*ESTILOS CAROUSEL*/
+.display-1{
+  font-family: 'HK Nova';
+  font-size: 900;
+}
+
+.c-item {
+  height: 590px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+@media (max-width: 270px) {
+  .c-item {
+    display: none !important; 
+  }
+
+  .c-img {
+    display: none;
+  }
+}
+
+.fs-3{
+  font-family: 'HK Nova';
+  font-size: 800;
+  }
+  
+  
+
+  .btn-color {
+    background-color: #009EE2;
+    font-family: 'HK Nova';
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .btn-color:hover,
+  .btn-color:active {
+    background-color: #E30231 !important; 
+    border-color: #E30231 !important ;
+  }
+
+/*ESTILOS CAROUSEL*/
+
+
+
+
+
+
+
+/*ESTILOS CARDS*/
+
+.botonazul {
+  background-color: #1E14D2 ; 
+  color: white; 
+  border: 2px solid #1E14D2 ;
+  display: inline-block; 
+  text-align: center; 
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 5px; 
+  margin-right: 4px !important;
+}
+
+.botonazul:hover{
+  background-color: #0a7494;
+  border-color: #0a7494;
+}
+
+.botonrojo {
+  background-color: #E30231 ; 
+  color: white;
+  border: 2px solid #E30231; 
+  display: inline-block; 
+  text-align: center; 
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 5px; 
+}
+
+.botonrojo:hover{
+  background-color: #ec2d86;
+  border-color: #ec2d86;
+}
+
+
+.card-one, .card-two, .card-three, .card-four, .card-five, .card-six{
+border-radius: 20px;
+  display: flex;
+}
+
+
+#carouselcard {
+  overflow: hidden; 
+}
+
+.card-body{
+  border-radius: 0px 0px 20px 20px;
+}
+
+.card{
+  border: none;
+  outline: none; 
+  border-radius: 21px;
+}
+
+.card img{
+border: none;
+  outline: none; 
+  border-radius: 20px 20px 0px 0px;
+}
+
+#carouselExampleFade{
+  border: none;
+  outline: none; 
+  border-radius: 21px 21px 0px 0px;
+}
+
+.carousel-inner{
+  border: none;
+  outline: none; 
+  border-radius: 20px 20px 0px 0px;
+}
+
+.carousel-item {
+border: none;
+  outline: none; 
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card-body{
+  background-image: linear-gradient(to right ,#E30231  , #1E14D2); 
+color: white;
+}
+
+/*ESTILOS CARDS*/
+
+
+
+
+
+/*ESTILOS ICONOS*/
+
+  .social-icon2 {
+    display: inline-block;
+    transition: transform 0.3s; 
+    margin-top: 10px;
+    color:  #1E14D2;
+  }
+  
+  
+  .social-icon2:hover {
+    transform: scale(1.5); 
+    color: #E30231;
+  }
+
+  
+  .btns1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 80px;
+    width: fit-content; 
+    margin: 0 auto; 
+  }
+  
+  /*ESTILOS ICONOS*/
+
+
+
+
+
+  
+  
+   
+  @media (max-width: 245px) {
+    .card {
+      display: none;
+    }
+  
+    .navbar {
+      height: auto;
+      width: 100%;
+    }
+  
+   
+  
+    .activarfoto {
+      height: 1.2rem !important; 
+      width: auto;
+      padding: 0; 
+      transition: padding 0.5s; 
+      margin: 0 auto;
+      display: block; 
+    }
+  
+    .activarfoto:hover {
+      transition: padding 0.5s; 
+      border-radius: 10px;
+      padding: 0;
+    }
+  
+    .container {
+      background-image: linear-gradient(to right ,#E30231 , #1E14D2,#009EE2); 
+    }
+  
+    .btns1 {
+      margin-top: 30px;
+    }
+  }
+  
+  
+  @media (min-width: 246px) and (max-width: 270px) {
+    .card {
+      display: none;
+    }
+  
+    .navbar {
+      height: auto;
+      width: 100%;
+    }
+  
+    .navbar-toggler {
+      display: block;
+      padding: 0.1rem 0.1rem; 
+      border-radius: 5px;
+      transition: background-color 0.3s; 
+      margin-right: 3px;
+      background-image: url('misiones.png'); 
+      background-size: cover;
+      border-color: rgb(17, 0, 63);
+      filter: brightness(100%); 
+    }
+  
+    .activarfoto {
+      height: 1.4rem !important; 
+      width: auto;
+      padding: 0; 
+      transition: padding 0.5s; 
+      margin: 0 auto;
+      display: block; 
+    }
+  
+    .activarfoto:hover {
+      transition: padding 0.5s; 
+      border-radius: 10px;
+      padding: 0;
+    }
+  
+    .container {
+      background-image: linear-gradient(to right ,#E30231 , #1E14D2,#009EE2); 
+
+    }
+  
+    .btns1 {
+      margin-top: 30px;
+    }
+}
+
+
+@media (min-width: 271px)  and  (max-width:280px){
+  .navbar {
+    height: 50px;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .activarfoto {
+    height: 1.4rem !important; 
+    width: auto;
+    padding: 0; 
+    transition: padding 0.5s; 
+    margin: 0 auto;
+    display: block; 
+  }
+
+  .activarfoto:hover {
+    transition: padding 0.5s; 
+    border-radius: 10px;
+    padding: 0;
+  }
+
+  #hero-carousel{
+   margin-bottom: 10px;
+  
+
+  }
+
+.card {
+  width: 7rem;
+}
+
+.botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 7px; 
+  font-weight: 300; 
+   width: 50px;
+  margin-left: -10px;
+  margin-top: -10px;
+  height: 13px;
+}
+
+.botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 7px; 
+  font-weight: 300; 
+   width: 50px;
+   margin-top: -10px;
+   height: 13px;
+}
+
+.card-title{
+  font-family: 'HK Nova'; 
+  font-size: 8px; 
+  font-weight: 400; 
+  margin-left: -8px;
+}
+
+.card-text{
+  font-family: 'HK Nova';
+  font-weight: 300;
+  font-size: 7px;
+  line-height: 1.3;
+  margin-top: -5px;
+  margin-left: -8px;
+}
+}
+
+
+@media (min-width: 281px)  and  (max-width:300px){
+#hero-carousel{
+ margin-bottom: 10px;
+}
+
+.activarfoto {
+  height: 1.5rem !important; 
+  width: auto;
+  padding: 0; 
+  transition: padding 0.5s; 
+  margin: 0 auto;
+  display: block; 
+}
+
+.activarfoto:hover {
+  transition: padding 0.5s; 
+  border-radius: 10px;
+  padding: 0;
+}
+
+
+.card {
+width: 17rem;
+}
+
+.botonazul {
+font-family: 'HK Nova'; 
+font-size: 13px; 
+font-weight: 300; 
+ width: 70px;
+height: 26px;
+}
+
+.botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 13px; 
+  font-weight: 300; 
+   width: 70px;
+   height: 26px;
+  }
+
+.card-title{
+font-family: 'HK Nova'; 
+font-size: 13px; 
+font-weight: 400; 
+}
+
+.card-text{
+  font-family: 'HK Nova';
+  font-weight: 300;
+font-size: 12px;
+line-height: 1.3;
+margin-top: -5px;
+}
+}
+
+
+@media (min-width: 301px)  and  (max-width:320px){
+#hero-carousel{
+ margin-bottom: 10px;
+}
+
+.activarfoto {
+  height: 1.6rem !important; 
+  width: auto;
+  padding: 0; 
+  transition: padding 0.5s; 
+  margin: 0 auto;
+  display: block; 
+}
+
+.activarfoto:hover {
+  transition: padding 0.5s; 
+  border-radius: 10px;
+  padding: 0;
+}
+
+
+.card {
+width: 8rem;
+}
+
+.botonazul {
+font-family: 'HK Nova'; 
+font-size: 8px; 
+font-weight: 300; 
+ width: 70px;
+height: 15px;
+}
+
+.botonrojo {
+font-family: 'HK Nova'; 
+font-size: 8px; 
+font-weight: 300; 
+ width: 70px;
+ height: 15px;
+}
+
+.card-title{
+font-family: 'HK Nova'; 
+font-size: 8px; 
+font-weight: 400; 
+}
+
+.card-text{
+  font-family: 'HK Nova';
+  font-weight: 300;
+font-size: 8px;
+line-height: 1.3;
+margin-top: -5px;
+}
+}
+
+
+@media (min-width: 321px)  and  (max-width:351px){
+#hero-carousel{
+ margin-bottom: 10px;
+}
+
+
+.activarfoto {
+  height: 1.7rem !important; 
+  width: auto;
+  padding: 0; 
+  transition: padding 0.5s; 
+  margin: 0 auto;
+  display: block; 
+}
+
+.activarfoto:hover {
+  transition: padding 0.5s; 
+  border-radius: 10px;
+  padding: 0;
+}
+
+
+.card {
+width: 9rem;
+}
+
+.botonazul {
+font-family: 'HK Nova'; 
+font-size: 9px; 
+font-weight: 300; 
+ width: 70px;
+height: 15px;
+}
+
+.botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+   height: 15px;
+  }
+
+.card-title{
+font-family: 'HK Nova'; 
+font-size: 10px; 
+font-weight: 400; 
+}
+
+.card-text{
+  font-family: 'HK Nova';
+  font-weight: 300;
+font-size: 9px;
+line-height: 1.1;
+margin-top: -5px;
+}
+}
+
+
+@media (min-width: 352px)  and  (max-width:383px){
+#hero-carousel{
+ margin-bottom: 10px;
+}
+
+
+.activarfoto {
+  height: 1.8rem !important; 
+  width: auto;
+  padding: 0; 
+  transition: padding 0.5s; 
+  margin: 0 auto;
+  display: block; 
+}
+
+.activarfoto:hover {
+  transition: padding 0.5s; 
+  border-radius: 10px;
+  padding: 0;
+}
+
+
+.card {
+width: 10rem;
+}
+
+.botonazul {
+font-family: 'HK Nova'; 
+font-size: 10px; 
+font-weight: 300; 
+ width: 70px;
+height: 18px;
+}
+
+.botonrojo {
+font-family: 'HK Nova'; 
+font-size: 10px; 
+font-weight: 300; 
+ width: 70px;
+ height: 18px;
+}
+
+.card-title{
+font-family: 'HK Nova'; 
+font-size: 12px; 
+font-weight: 400; 
+
+}
+.card-text{
+  font-family: 'HK Nova';
+  font-weight: 300;
+font-size: 10px;
+line-height: 1.1;
+margin-top: -5px;
+}
+}
+
+
+@media (min-width: 384px)  and  (max-width:415px){
+#hero-carousel{
+ margin-bottom: 10px;
+}
+
+.card {
+width: 11rem;
+}
+
+
+.activarfoto {
+  height: 1.8rem !important; 
+  width: auto;
+  padding: 0; 
+  transition: padding 0.5s; 
+  margin: 0 auto;
+  display: block; 
+}
+
+.activarfoto:hover {
+  transition: padding 0.5s; 
+  border-radius: 10px;
+  padding: 0;
+}
+
+
+.botonazul{
+font-family: 'HK Nova'; 
+font-size: 11px; 
+font-weight: 300; 
+ width: 70px;
+height: 18px;
+}
+
+.botonrojo {
+font-family: 'HK Nova'; 
+font-size: 11px; 
+font-weight: 300; 
+ width: 70px;
+ height: 18px;
+}
+
+.card-title{
+font-family: 'HK Nova'; 
+font-size: 13px; 
+font-weight: 400; 
+}
+
+.card-text{
+  font-family: 'HK Nova';
+  font-weight: 300;
+font-size: 12px;
+line-height: 1.1;
+margin-top: -5px;
+}
+}
+
+
+@media (min-width: 416px)  and  (max-width:447px){
+  #hero-carousel{
+   margin-bottom: 10px;
+  }
+  
+  .card {
+  width: 11rem;
+  }
+
+
+.activarfoto {
+  height: 1.8rem !important; 
+  width: auto;
+  padding: 0; 
+  transition: padding 0.5s; 
+  margin: 0 auto;
+  display: block; 
+}
+
+.activarfoto:hover {
+  transition: padding 0.5s; 
+  border-radius: 10px;
+  padding: 0;
+}
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 11px; 
+  font-weight: 300; 
+   width: 70px;
+  height: 18px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 11px; 
+  font-weight: 300; 
+   width: 70px;
+   height: 18px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 13px; 
+  font-weight: 400; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 300;
+  font-size: 12px;
+  line-height: 1.1;
+  margin-top: -5px;
+  }
+  }
+
+
+@media (min-width: 448px)  and  (max-width:480px){
+  #hero-carousel{
+   margin-bottom: 10px;
+  }
+  
+  .card {
+  width: 8rem;
+  }
+  
+
+
+
+
+  .activarfoto {
+    height: 1.8rem !important; 
+    width: auto;
+    padding: 0; 
+    transition: padding 0.5s; 
+    margin: 0 auto;
+    display: block; 
+  }
+  
+  .activarfoto:hover {
+    transition: padding 0.5s; 
+    border-radius: 10px;
+    padding: 0;
+  }
+
+
+
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+  height: 17px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+   height: 17px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 10px; 
+  font-weight: 400; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 300;
+  font-size: 8px;
+  line-height: 1.1;
+  margin-top: -5px;
+  }
+  }
+  
+
+@media (min-width: 481px)  and  (max-width:515px){
+#hero-carousel{
+ margin-bottom: 27px;
+}
+
+.card {
+width: 9rem;
+}
+
+
+
+
+.activarfoto {
+  height: 1.8rem !important; 
+  width: auto;
+  padding: 0; 
+  transition: padding 0.5s; 
+  margin: 0 auto;
+  display: block; 
+}
+
+.activarfoto:hover {
+  transition: padding 0.5s; 
+  border-radius: 10px;
+  padding: 0;
+}
+
+
+.botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+  height: 18px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+   height: 18px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 10px; 
+  font-weight: 400; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 300;
+  font-size: 9px;
+  line-height: 1.1;
+  margin-top: -5px;
+  }
+  }
+
+
+@media (min-width: 516px)  and  (max-width:543px){
+#hero-carousel{
+ margin-bottom: 28px;
+}
+
+.card {
+width: 9rem;
+}
+
+
+
+
+
+.activarfoto {
+  height: 1.9rem !important; 
+  width: auto;
+  padding: 0; 
+  transition: padding 0.5s; 
+  margin: 0 auto;
+  display: block; 
+}
+
+.activarfoto:hover {
+  transition: padding 0.5s; 
+  border-radius: 10px;
+  padding: 0;
+}
+
+.botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+  height: 18px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+   height: 18px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 10px; 
+  font-weight: 400; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 300;
+  font-size: 9px;
+  line-height: 1.1;
+  margin-top: -5px;
+  }
+  }
+
+
+@media (min-width: 544px)  and  (max-width:575px){
+#hero-carousel{
+ margin-bottom: 28px;
+}
+
+.card {
+width: 9rem;
+}
+
+
+
+
+.activarfoto {
+  height: 2rem !important; 
+  width: auto;
+  padding: 0; 
+  transition: padding 0.5s; 
+  margin: 0 auto;
+  display: block; 
+}
+
+.activarfoto:hover {
+  transition: padding 0.5s; 
+  border-radius: 10px;
+  padding: 0;
+}
+
+
+.botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+  height: 18px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+   height: 18px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 10px; 
+  font-weight: 400; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 300;
+  font-size: 9px;
+  line-height: 1.1;
+  margin-top: -5px;
+  }
+  }
+
+
+@media (min-width: 576px)  and  (max-width:590px){
+#hero-carousel{
+ margin-bottom: 28px;
+}
+
+.card {
+width: 9rem;
+}
+
+.botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+  height: 18px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+   height: 18px;
+  }
+
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 10px; 
+  font-weight: 400; 
+  
+  }
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 300;
+  font-size: 9px;
+  line-height: 1.1;
+  margin-top: -5px;
+  }
+  }
+
+
+@media (min-width: 591px)  and  (max-width:623px){
+#hero-carousel{
+ margin-bottom: 28px;
+}
+
+.card {
+width: 10rem;
+}
+
+.botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+  height: 18px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 9px; 
+  font-weight: 300; 
+   width: 70px;
+   height: 18px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 10px; 
+  font-weight: 400; 
+  
+  }
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 300;
+  font-size: 10px;
+  line-height: 1.1;
+  margin-top: -5px;
+  }
+  }
+
+
+
+
+@media (min-width: 624px)  and  (max-width:671px){
+#hero-carousel{
+ margin-bottom: 28px;
+}
+
+.card {
+width: 11rem;
+}
+
+.botonazul {
+font-family: 'HK Nova'; 
+font-size: 13px; 
+font-weight: 500; 
+ width: 70px;
+height: 22px;
+}
+
+.botonrojo {
+font-family: 'HK Nova'; 
+font-size: 13px; 
+font-weight: 500; 
+ width: 70px;
+ height: 22px;
+}
+
+.card-title{
+font-family: 'HK Nova'; 
+font-size: 14px; 
+font-weight: 500; 
+}
+
+.card-text{
+  font-family: 'HK Nova';
+  font-weight: 400;
+font-size: 11px;
+line-height: 1.1;
+margin-top: -5px;
+}
+}
+
+
+@media (min-width: 672px)  and  (max-width:719px){
+#hero-carousel{
+ margin-bottom: 28px;
+}
+
+.card {
+width: 12rem;
+}
+
+.botonazul {
+font-family: 'HK Nova'; 
+font-size: 15px; 
+font-weight: 500; 
+ width: 80px;
+height: 27px;
+}
+
+.botonrojo {
+font-family: 'HK Nova'; 
+font-size: 15px; 
+font-weight: 500; 
+ width: 80px;
+ height: 27px;
+}
+
+.card-title{
+font-family: 'HK Nova'; 
+font-size: 15px; 
+font-weight: 500; 
+}
+
+.card-text{
+  font-family: 'HK Nova';
+  font-weight: 400;
+font-size: 13px;
+line-height: 1.2;
+margin-top: -5px;
+}
+}
+
+
+@media (min-width: 720px)  and  (max-width:767px){
+  #hero-carousel{
+   margin-bottom: 30px;
+  }
+  
+  .card {
+  width: 13rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 15px; 
+  font-weight: 500; 
+   width: 80px;
+  height: 27px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 15px; 
+  font-weight: 500; 
+   width: 80px;
+   height: 27px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 15px; 
+  font-weight: 500; 
+  
+  }
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+  
+
+@media (min-width: 768px)  and  (max-width:815px){
+  #hero-carousel{
+   margin-bottom: 30px;
+  }
+  
+  .card {
+  width: 14rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 15px; 
+  font-weight: 500; 
+   width: 80px;
+  height: 27px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 15px; 
+  font-weight: 500; 
+   width: 80px;
+   height: 27px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 15px; 
+  font-weight: 500; 
+  
+  }
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+  
+
+@media (min-width: 816px)  and  (max-width:864px){
+  #hero-carousel{
+   margin-bottom: 30px;
+  }
+  
+  .card {
+  width: 14rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 15px; 
+  font-weight: 500; 
+   width: 80px;
+  height: 27px;
+  }
+  
+  .botonrojo {
+    font-family: 'HK Nova'; 
+    font-size: 15px; 
+    font-weight: 500; 
+     width: 80px;
+     height: 27px;
+    }
+    
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 15px; 
+  font-weight: 500; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+
+
+@media (min-width: 865px)  and  (max-width:890px){
+  #hero-carousel{
+   margin-bottom: 34px;
+  }
+  
+  .card {
+  width: 14rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 16px; 
+  font-weight: 600; 
+   width: 90px;
+  height: 32px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 16px; 
+  font-weight: 600; 
+   width: 90px;
+   height: 32px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 16px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+
+
+@media (min-width: 891px)  and  (max-width:911px){
+  #hero-carousel{
+   margin-bottom: 34px;
+  }
+  
+  .card {
+  width: 16rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 16px; 
+  font-weight: 600; 
+   width: 90px;
+  height: 32px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 16px; 
+  font-weight: 600; 
+   width: 90px;
+   height: 32px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 16px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+
+
+@media (min-width: 912px)  and  (max-width:959px){
+  #hero-carousel{
+   margin-bottom: 36px;
+  }
+  
+  .card {
+  width: 16rem;
+  }
+  
+  .botonazul{
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+  height: 35px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+   height: 35px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+
+ 
+@media (min-width: 960px)  and  (max-width:1007px){
+  #hero-carousel{
+   margin-bottom: 38px;
+  }
+  
+  .card {
+  width: 17rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+  height: 35px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+   height: 35px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+
+
+@media (min-width: 1008px)  and  (max-width:1055px){
+  #hero-carousel{
+   margin-bottom: 38px;
+  }
+  
+  .card {
+  width: 17rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+  height: 35px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+   height: 35px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+
+       
+@media (min-width: 1056px)  and  (max-width:1080px){
+  #hero-carousel{
+   margin-bottom: 39px;
+  }
+  
+  .card {
+  width: 18rem;
+  background-color: #1E14D2;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+  height: 35px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+   height: 35px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+
+  
+@media (min-width: 1056px)  and  (max-width:1103px){
+  #hero-carousel{
+   margin-bottom: 39px;
+  }
+  
+  .card {
+  width: 19rem;
+  }
+  
+  .botonazul{
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+  height: 35px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+   height: 35px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+  
+  }
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+
+       
+@media (min-width: 1104px)  and  (max-width:1151px){
+  #hero-carousel{
+   margin-bottom: 40px;
+  }
+  
+  .card {
+  width: 20rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+  height: 35px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+   width: 95px;
+   height: 35px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 17px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: -5px;
+  }
+  }
+
+  
+@media (min-width: 1152px)  and  (max-width:1199px){
+  #hero-carousel{
+   margin-bottom: 40px;
+  }
+  
+  .card {
+  width: 21rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 18px; 
+  font-weight: 600; 
+   width: 100px;
+  height: 40px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 18px; 
+  font-weight: 600; 
+   width: 100px;
+   height: 40px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 18px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 17px;
+  line-height: 1.3;
+  margin-top: -5px;
+  }
+  }
+
+  
+@media (min-width: 1200px)  and  (max-width:1250px){
+  #hero-carousel{
+   margin-bottom: 40px;
+  }
+  
+  .card {
+  width: 23rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 18px; 
+  font-weight: 600; 
+   width: 100px;
+  height: 40px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 18px; 
+  font-weight: 600; 
+   width: 100px;
+   height: 40px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 18px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+font-family: 'HK Nova';
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.3;
+  margin-top: -5px;
+  }
+  }
+
+             
+@media (min-width: 1251px)  and  (max-width:1310px){
+  #hero-carousel{
+   margin-bottom: 40px;
+  }
+  
+  .card {
+  width: 24rem;
+  }
+  
+  .botonazul{
+  font-family: 'HK Nova'; 
+  font-size: 18px; 
+  font-weight: 600; 
+   width: 100px;
+  height: 40px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 18px; 
+  font-weight: 600; 
+   width: 100px;
+   height: 40px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 18px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 17px;
+  line-height: 1.3;
+  margin-top: -5px;
+  }
+  }
+
+             
+@media (min-width: 1311px)  and  (max-width:1343px){
+  #hero-carousel{
+   margin-bottom: 40px;
+  }
+  
+  .card {
+  width: 25rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 19px; 
+  font-weight: 600; 
+   width: 110px;
+  height: 45px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 19px; 
+  font-weight: 600; 
+   width: 110px;
+   height: 45px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 19px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+  margin-top: -5px;
+  }
+  }
+               
+@media (min-width: 1344px){
+  #hero-carousel{
+   margin-bottom: 40px;
+  }
+ 
+  .card {
+  width: 26rem;
+  }
+  
+  .botonazul {
+  font-family: 'HK Nova'; 
+  font-size: 19px; 
+  font-weight: 600; 
+   width: 110px;
+  height: 45px;
+  }
+  
+  .botonrojo {
+  font-family: 'HK Nova'; 
+  font-size: 19px; 
+  font-weight: 600; 
+   width: 110px;
+   height: 45px;
+  }
+  
+  .card-title{
+  font-family: 'HK Nova'; 
+  font-size: 19px; 
+  font-weight: 600; 
+  }
+
+  .card-text{
+    font-family: 'HK Nova';
+    font-weight: 500;
+  font-size: 18px;
+  line-height: 1.3;
+  margin-top: -5px;
+  }
+  }
+
+
+
+  

@@ -1,0 +1,37 @@
+
+.card{
+    border: none;
+    outline: none; 
+    background-color: rgb(202, 186, 186);
+    width: 50%;
+    padding-left: 8%;
+  }
+  
+  #carouselcard {
+    overflow: hidden; 
+    border-radius: 10%;
+   
+  }
+  
+  .card img{
+  border: none;
+    outline: none; 
+  }
+  
+  #carouselExampleFade{
+    border: none;
+    outline: none; 
+    
+  }
+  
+  .carousel-inner{
+    border: none;
+    outline: none; 
+   
+  }
+  
+  .carousel-item {
+  border: none;
+    outline: none; 
+    
+  }
